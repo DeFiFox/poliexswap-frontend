@@ -6,11 +6,11 @@ const tokens = {
   beco: {
     symbol: 'BECO',
     address: {
-      56: '0x8fe4d28476cdd43d36a12eb47dc3243c1925f263',
+      56: '0x97365156085d0cE3fC3FE2194a868bFF7e271b96',
       97: '0xa35062141Fa33BCA92Ce69FeD37D0E8908868AAe',
     },
     decimals: 18,
-    projectLink: 'https://becoswap.com/',
+    projectLink: 'https://tika.finance/',
   },
   btcb: {
     symbol: 'BTCB',
