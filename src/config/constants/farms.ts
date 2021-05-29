@@ -7,7 +7,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BECO-BNB LP',
     lpAddresses: {
       97: '0x3ed8936cAFDF85cfDBa29Fbe5940A5b0524824F4',
-      56: '0x93bA7cA08fcB20d0a3381052B8c24bdFb0a9fec7',
+      56: '0xD306E255eDF50C6CCe53427975E6Acd689807674',
     },
     token: tokens.beco,
     quoteToken: tokens.wbnb,
