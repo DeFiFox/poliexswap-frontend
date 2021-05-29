@@ -75,6 +75,15 @@ const tokens = {
     decimals: 18,
     projectLink: 'https://tether.to/',
   },
+    syrup: {
+    symbol: 'TikaSyrupBar',
+    address: {
+      97: '0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5',
+      56: '0x2e3389C446E54e756C5db301f2eadEAde2FDdAf7',
+    },
+    decimals: 18,
+    projectLink: 'https://tika.finance/',
+  },
 }
 
 export default tokens
