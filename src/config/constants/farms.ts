@@ -27,7 +27,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BNB-USDT LP',
     lpAddresses: {
       97: '0x3ed8936cAFDF85cfDBa29Fbe5940A5b0524824F4',
-      56: '0x587d26D8235C24DBA51CF4E6629d5327CF43Ae4C',
+      56: '0x16b9a82891338f9bA80E2D6970FddA79D1eb0daE',
     },
     token: tokens.usdt,
     quoteToken: tokens.wbnb,
@@ -37,7 +37,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'ETH-USDT LP',
     lpAddresses: {
       97: '0x3ed8936cAFDF85cfDBa29Fbe5940A5b0524824F4',
-      56: '0x4C601D261710deA5703F48854AeA2788CE58b9B3',
+      56: '0x74E4716E431f45807DCF19f284c7aA99F18a4fbc',
     },
     token: tokens.usdt,
     quoteToken: tokens.eth,
@@ -47,7 +47,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BTC-BNB LP',
     lpAddresses: {
       97: '0x3ed8936cAFDF85cfDBa29Fbe5940A5b0524824F4',
-      56: '0x37Ee3b988376040d9eDa49aC66A520beA3726E32',
+      56: '0x61EB789d75A95CAa3fF50ed7E47b96c132fEc082',
     },
     token: tokens.btcb,
     quoteToken: tokens.wbnb,
@@ -57,19 +57,19 @@ const farms: FarmConfig[] = [
     lpSymbol: 'USDT-BUSD LP',
     lpAddresses: {
       97: '0x3ed8936cAFDF85cfDBa29Fbe5940A5b0524824F4',
-      56: '0xDCca47bfFb79984D3Af9794fd178e4b30e1Cc79B',
+      56: '0x7EFaEf62fDdCCa950418312c6C91Aef321375A00',
     },
     token: tokens.wbnb,
     quoteToken: tokens.busd,
   },
   {
     pid: 10,
-    lpSymbol: 'BTC-USDT LP',
+    lpSymbol: 'BTC-BUSD LP',
     lpAddresses: {
       97: '0x3ed8936cAFDF85cfDBa29Fbe5940A5b0524824F4',
-      56: '0xc175Bc83D4c9394A1D087D82d8e1D9564e65FCf1',
+      56: '0xf45cd219aef8618a92baa7ad848364a158a24f33',
     },
-    token: tokens.usdt,
+    token: tokens.busd,
     quoteToken: tokens.btcb,
   },
   {
@@ -77,7 +77,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'USDC-BUSD LP',
     lpAddresses: {
       97: '0x3ed8936cAFDF85cfDBa29Fbe5940A5b0524824F4',
-      56: '0x1E544d8e50cC9585aed8e0d232EE403F5F4969A6',
+      56: '0x2354ef4DF11afacb85a5C7f98B624072ECcddbB1',
     },
     token: tokens.usdc,
     quoteToken: tokens.busd,
@@ -88,7 +88,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'CAKE-BNB LP',
     lpAddresses: {
       97: '0x3ed8936cAFDF85cfDBa29Fbe5940A5b0524824F4',
-      56: '0x0adB576702b83a56B2124cc353BA5695ce4A2866',
+      56: '0x0eD7e52944161450477ee417DE9Cd3a859b14fD0',
     },
     token: tokens.cake,
     quoteToken: tokens.wbnb,
