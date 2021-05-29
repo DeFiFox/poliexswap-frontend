@@ -4,7 +4,7 @@ import { FarmConfig } from './types'
 const farms: FarmConfig[] = [
   {
     pid: 1,
-    lpSymbol: 'BECO-BNB LP',
+    lpSymbol: 'TIKA-BNB LP',
     lpAddresses: {
       97: '0x3ed8936cAFDF85cfDBa29Fbe5940A5b0524824F4',
       56: '0xD306E255eDF50C6CCe53427975E6Acd689807674',
