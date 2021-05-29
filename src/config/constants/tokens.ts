@@ -4,7 +4,7 @@ const tokens = {
     projectLink: 'https://www.binance.com/',
   },
   beco: {
-    symbol: 'BECO',
+    symbol: 'TIKA',
     address: {
       56: '0x97365156085d0cE3fC3FE2194a868bFF7e271b96',
       97: '0xa35062141Fa33BCA92Ce69FeD37D0E8908868AAe',
