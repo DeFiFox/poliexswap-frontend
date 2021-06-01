@@ -9,7 +9,7 @@ const farms: FarmConfig[] = [
       97: '',
       56: '0xA0C577f5b4861132727A235e8bD93208Cc1229Df',
     },
-    token: tokens.beco,
+    token: tokens.polex,
     quoteToken: tokens.wbnb,
   },
   {
