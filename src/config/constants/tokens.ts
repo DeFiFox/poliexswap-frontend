@@ -4,10 +4,10 @@ const tokens = {
     projectLink: 'https://www.binance.com/',
   },
   beco: {
-    symbol: 'TIKA',
+    symbol: 'POLEX',
     address: {
-      56: '0x97365156085d0cE3fC3FE2194a868bFF7e271b96',
-      97: '0xa35062141Fa33BCA92Ce69FeD37D0E8908868AAe',
+      56: '0x76f972e0ed973b61eb591fbc0db2f5c0b54b1790',
+      97: '',
     },
     decimals: 18,
     projectLink: 'https://tika.finance/',
