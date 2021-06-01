@@ -13,7 +13,7 @@ const MyReferralLinkCard = () => {
   const { t } = useTranslation()
   const { account } = useWeb3React()
 
-  const domain = "https://becoswap.com/?ref="
+  const domain = "https://polexx.netlify.app/?ref="
   const referralLink = domain + account
   return (
     <StyledLotteryCard>
