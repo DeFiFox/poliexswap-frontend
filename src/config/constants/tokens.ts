@@ -3,7 +3,7 @@ const tokens = {
     symbol: 'BNB',
     projectLink: 'https://www.binance.com/',
   },
-  beco: {
+  polex: {
     symbol: 'POLEX',
     address: {
       56: '0x76f972e0ed973b61eb591fbc0db2f5c0b54b1790',
