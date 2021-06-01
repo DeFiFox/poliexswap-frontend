@@ -55,7 +55,7 @@ const BountyModal: React.FC<BountyModalProps> = ({
         setPendingTx(true)
       })
       .on('receipt', () => {
-        toastSuccess(t('Bounty collected!'), t('BECO bounty has been sent to your wallet.'))
+        toastSuccess(t('Bounty collected!'), t('POLEX bounty has been sent to your wallet.'))
         setPendingTx(false)
         onDismiss()
       })
@@ -75,7 +75,7 @@ const BountyModal: React.FC<BountyModalProps> = ({
       <Flex alignItems="flex-start" justifyContent="space-between">
         <Text>{t("You'll claim")}</Text>
         <Flex flexDirection="column">
-          <Text bold>{cakeBountyToDisplay} BECO</Text>
+          <Text bold>{cakeBountyToDisplay} POLEX</Text>
           <Text fontSize="12px" color="textSubtle">
             ~ {dollarBountyToDisplay} USD
           </Text>
@@ -87,7 +87,7 @@ const BountyModal: React.FC<BountyModalProps> = ({
           {t('Pool total pending yield')}
         </Text>
         <Text fontSize="14px" color="textSubtle">
-          {totalYieldToDisplay} BECO
+          {totalYieldToDisplay} POLEX
         </Text>
       </Flex>
       <Flex alignItems="center" justifyContent="space-between" mb="24px">
