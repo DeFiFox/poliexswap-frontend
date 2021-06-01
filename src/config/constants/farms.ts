@@ -27,7 +27,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BNB-USDT LP',
     lpAddresses: {
       97: '0x3ed8936cAFDF85cfDBa29Fbe5940A5b0524824F4',
-      56: '0x587d26D8235C24DBA51CF4E6629d5327CF43Ae4C',
+      56: '0x16b9a82891338f9bA80E2D6970FddA79D1eb0daE',
     },
     token: tokens.usdt,
     quoteToken: tokens.wbnb,
