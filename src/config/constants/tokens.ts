@@ -6,11 +6,11 @@ const tokens = {
   polex: {
     symbol: 'POLEX',
     address: {
-      56: '0x76f972e0ed973b61eb591fbc0db2f5c0b54b1790',
+      56: '0x5550a00d2B9841d7659563B861E7d765200b9682',
       97: '',
     },
     decimals: 18,
-    projectLink: 'https://tika.finance/',
+    projectLink: 'https://polexx.netlify.app/',
   },
   btcb: {
     symbol: 'BTCB',
