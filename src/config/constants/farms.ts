@@ -22,6 +22,16 @@ const farms: FarmConfig[] = [
     token: tokens.busd,
     quoteToken: tokens.wbnb,
   },
+   {
+    pid: 3,
+    lpSymbol: 'USDC-BUSD LP',
+    lpAddresses: {
+      97: '',
+      56: '0x2354ef4DF11afacb85a5C7f98B624072ECcddbB1',
+    },
+    token: tokens.usdc,
+    quoteToken: tokens.busd,
+  },
   {
     pid: 4,
     lpSymbol: 'BNB-USDT LP',
@@ -72,16 +82,7 @@ const farms: FarmConfig[] = [
 //     token: tokens.usdt,
 //     quoteToken: tokens.btcb,
 //   },
-//   {
-//     pid: 3,
-//     lpSymbol: 'USDC-BUSD LP',
-//     lpAddresses: {
-//       97: '0x3ed8936cAFDF85cfDBa29Fbe5940A5b0524824F4',
-//       56: '0x1E544d8e50cC9585aed8e0d232EE403F5F4969A6',
-//     },
-//     token: tokens.usdc,
-//     quoteToken: tokens.busd,
-//   },
+  
   
 //   {
 //     pid: 9,
