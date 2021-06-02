@@ -21,14 +21,7 @@ const TotalValueLockedCard = () => {
         <Heading size="lg" mb="24px">
           {t('Total Value Locked (TVL)')}
         </Heading>
-<!--         {data ? (
-          <>
-            <Heading size="xl">{`$${tvl}`}</Heading>
-            <Text color="textSubtle">{t('Across all LPs and Polex Pools')}</Text>
-          </>
-        ) : (
-          <Skeleton height={66} />
-        )} -->
+
       </CardBody>
     </StyledTotalValueLockedCard>
   )
