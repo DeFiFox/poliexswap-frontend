@@ -6,8 +6,8 @@ const farms: FarmConfig[] = [
     pid: 1,
     lpSymbol: 'POLEX-BNB LP',
     lpAddresses: {
-      97: '0x3ed8936cAFDF85cfDBa29Fbe5940A5b0524824F4',
-      56: '0xA0C577f5b4861132727A235e8bD93208Cc1229Df',
+      97: '',
+      56: '0x73c5114b19ab840f16cdffa40711ef777353d4aa',
     },
     token: tokens.polex,
     quoteToken: tokens.wbnb,
