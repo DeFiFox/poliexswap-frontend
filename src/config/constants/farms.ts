@@ -33,7 +33,7 @@ const farms: FarmConfig[] = [
 //     quoteToken: tokens.busd,
 //   },
   {
-    pid: 4,
+    pid: 2,
     lpSymbol: 'BNB-USDT LP',
     lpAddresses: {
       97: '',
