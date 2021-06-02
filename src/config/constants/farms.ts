@@ -12,21 +12,21 @@ const farms: FarmConfig[] = [
     token: tokens.polex,
     quoteToken: tokens.wbnb,
   },
-//   {
-//     pid: 2,
-//     lpSymbol: 'POLEX-USDT LP',
-//     lpAddresses: {
-//       97: '0x3ed8936cAFDF85cfDBa29Fbe5940A5b0524824F4',
-//       56: '0xA3Aa99b50946358b22523cd4A1fC8A29ce6Bee98',
-//     },
-//     token: tokens.polex,
-//     quoteToken: tokens.usdt,
-//   },
+  {
+    pid: 2,
+    lpSymbol: 'BNB-BUSD LP',
+    lpAddresses: {
+      97: '',
+      56: '0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16',
+    },
+    token: tokens.busd,
+    quoteToken: tokens.wbnb,
+  },
   {
     pid: 4,
     lpSymbol: 'BNB-USDT LP',
     lpAddresses: {
-      97: '0x3ed8936cAFDF85cfDBa29Fbe5940A5b0524824F4',
+      97: '',
       56: '0x16b9a82891338f9bA80E2D6970FddA79D1eb0daE',
     },
     token: tokens.usdt,
