@@ -13,26 +13,6 @@ const farms: FarmConfig[] = [
     quoteToken: tokens.wbnb,
   },
   {
-    pid: 3,
-    lpSymbol: 'BNB-BUSD LP',
-    lpAddresses: {
-      97: '',
-      56: '0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16',
-    },
-    token: tokens.busd,
-    quoteToken: tokens.wbnb,
-  },
-   {
-    pid: 4,
-    lpSymbol: 'USDC-BUSD LP',
-    lpAddresses: {
-      97: '',
-      56: '0x2354ef4DF11afacb85a5C7f98B624072ECcddbB1',
-    },
-    token: tokens.usdc,
-    quoteToken: tokens.busd,
-  },
-  {
     pid: 2,
     lpSymbol: 'BNB-USDT LP',
     lpAddresses: {
@@ -42,6 +22,27 @@ const farms: FarmConfig[] = [
     token: tokens.usdt,
     quoteToken: tokens.wbnb,
   },
+  {
+    pid: 3,
+    lpSymbol: 'BNB-BUSD LP',
+    lpAddresses: {
+      97: '',
+      56: '0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16',
+    },
+    token: tokens.busd,
+    quoteToken: tokens.wbnb,
+  },
+//    {
+//     pid: 4,
+//     lpSymbol: 'USDC-BUSD LP',
+//     lpAddresses: {
+//       97: '',
+//       56: '0x2354ef4DF11afacb85a5C7f98B624072ECcddbB1',
+//     },
+//     token: tokens.usdc,
+//     quoteToken: tokens.busd,
+//   },
+  
 //   {
 //     pid: 6,
 //     lpSymbol: 'ETH-USDT LP',
