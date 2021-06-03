@@ -86,7 +86,7 @@ const farms: FarmConfig[] = [
   
   
   {
-    pid: 4,
+    pid: 5,
     lpSymbol: 'CAKE-BNB LP',
     lpAddresses: {
       97: '',
