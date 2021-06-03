@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.becoswap.com/#/swap',
+        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x5550a00d2B9841d7659563B861E7d765200b9682',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.becoswap.com/#/pool',
+        href: 'https://exchange.pancakeswap.finance/#/pool',
       }
     ],
   },
@@ -30,73 +30,73 @@ const config: MenuEntry[] = [
     icon: 'PoolIcon',
     href: '/pools',
   },
-  {
-    label: 'Analytics',
-    icon: 'InfoIcon',
-    items: [
-      {
-        label: "Overview",
-        href: 'https://becoswap.info',
-      },
-      {
-        label: "Tokens",
-        href: 'https://becoswap.info/tokens',
-      },
-      {
-        label: "Pairs",
-        href: 'https://becoswap.info/pairs',
-      },
-      {
-        label: "Accounts",
-        href: 'https://becoswap.info/accounts',
-      },
-    ],
-  },
-  {
-    label: 'Lottery',
-    icon: 'TicketIcon',
-    href: '/lottery',
-  },
-  {
-    label: 'Launchpad',
-    icon: 'IfoIcon',
-    href: '/launchpad',
-  },
-  {
-    label: 'NFT Marketplace',
-    icon: 'NftIcon',
-    href: 'https://docs.becoswap.com/products/nft-marketplace',
-  },
+//   {
+//     label: 'Analytics',
+//     icon: 'InfoIcon',
+//     items: [
+//       {
+//         label: "Overview",
+//         href: 'https://becoswap.info',
+//       },
+//       {
+//         label: "Tokens",
+//         href: 'https://becoswap.info/tokens',
+//       },
+//       {
+//         label: "Pairs",
+//         href: 'https://becoswap.info/pairs',
+//       },
+//       {
+//         label: "Accounts",
+//         href: 'https://becoswap.info/accounts',
+//       },
+//     ],
+//   },
+//   {
+//     label: 'Lottery',
+//     icon: 'TicketIcon',
+//     href: '/lottery',
+//   },
+//   {
+//     label: 'Launchpad',
+//     icon: 'IfoIcon',
+//     href: '/launchpad',
+//   },
+//   {
+//     label: 'NFT Marketplace',
+//     icon: 'NftIcon',
+//     href: 'https://docs.becoswap.com/products/nft-marketplace',
+//   },
 
-  {
-    label: 'Bridge',
-    icon: 'BridgeIcon',
-    href: 'https://docs.becoswap.com/products/cross-chain-bridge',
-  },
+//   {
+//     label: 'Bridge',
+//     icon: 'BridgeIcon',
+//     href: 'https://docs.becoswap.com/products/cross-chain-bridge',
+//   },
 
-  {
-    label: 'Becochain',
-    icon: 'ChainIcon',
-    href: 'https://docs.becoswap.com/products/becochain',
-  },
+//   {
+//     label: 'Becochain',
+//     icon: 'ChainIcon',
+//     href: 'https://docs.becoswap.com/products/becochain',
+//   },
 
-  {
-    label: 'Stocks',
-    icon: 'StockIcon',
-    href: 'https://docs.becoswap.com/products/stocks',
-  },
+//   {
+//     label: 'Stocks',
+//     icon: 'StockIcon',
+//     href: 'https://docs.becoswap.com/products/stocks',
+//   },
 
-  {
-    label: 'Supply Chain',
-    icon: 'SupplyChainIcon',
-    href: 'https://docs.becoswap.com/products/supplychain',
-  },
+//   {
+//     label: 'Supply Chain',
+//     icon: 'SupplyChainIcon',
+//     href: 'https://docs.becoswap.com/products/supplychain',
+//   },
   
-  {
-    label: 'Games',
-    icon: 'NftIcon',
-    href: 'https://docs.becoswap.com/products/games',
-  },
+//   {
+//     label: 'Games',
+//     icon: 'NftIcon',
+//     href: 'https://docs.becoswap.com/products/games',
+//   },
   
   {
     label: 'Referrals',
