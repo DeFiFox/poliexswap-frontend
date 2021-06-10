@@ -26,38 +26,5 @@ const StyledPage = styled(Container)`
   }
 `
 
-const PageMeta = () => {
-  const { pathname } = useLocation()
-  const cakePriceUsd = usePriceCakeBusd()
-  const { t } = useTranslation()
-  const cakePriceUsdDisplay = cakePriceUsd.eq(0)
-    ? ''
-    : `$${cakePriceUsd.toNumber().toLocaleString(undefined, {
-        minimumFractionDigits: 3,
-        maximumFractionDigits: 3,
-      })}`
-  const pageMeta = customMeta[pathname] || {}
-  const { title, description, image } = { ...DEFAULT_META, ...pageMeta }
-  const pageTitle = cakePriceUsdDisplay ? [title, cakePriceUsdDisplay].join(' - ') : title
-
-  return (
-    <Helmet>
-<!--       <title><Text>{t('Poliex')}</Text></title>
-      <title>{pageTitle}</title> -->
-      <meta property="og:title" content={title} />
-      <meta property="og:description" content={description} />
-      <meta property="og:image" content={image} />
-    </Helmet>
-  )
-}
-
-const Page: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({ children, ...props }) => {
-  return (
-    <>
-      <PageMeta />
-      <StyledPage {...props}>{children}</StyledPage>
-    </>
-  )
-}
 
 export default Page
