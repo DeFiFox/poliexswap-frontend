@@ -25,6 +25,13 @@ const StyledPage = styled(Container)`
     padding-bottom: 32px;
   }
 `
-
+const Page: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({ children, ...props }) => {
+  return (
+    <>
+      
+      <StyledPage {...props}>{children}</StyledPage>
+    </>
+  )
+}
 
 export default Page
