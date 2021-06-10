@@ -42,7 +42,8 @@ const PageMeta = () => {
 
   return (
     <Helmet>
-      <title><Text>{t('Poliex')}</Text></title>
+<!--       <title><Text>{t('Poliex')}</Text></title>
+      <title>{pageTitle}</title> -->
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={image} />
