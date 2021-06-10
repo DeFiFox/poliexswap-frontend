@@ -28,6 +28,7 @@ const StyledPage = styled(Container)`
 const PageMeta = () => {
   const { pathname } = useLocation()
   const cakePriceUsd = usePriceCakeBusd()
+  const { t } = useTranslation()
   const cakePriceUsdDisplay = cakePriceUsd.eq(0)
     ? ''
     : `$${cakePriceUsd.toNumber().toLocaleString(undefined, {
