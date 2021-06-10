@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import {Heading, Text, BaseLayout } from '@becoswap-libs/uikit'
+import { Heading, Text, BaseLayout } from '@becoswap-libs/uikit'
 import { useTranslation } from 'contexts/Localization'
 import Page from 'components/layout/Page'
 import FarmStakingCard from 'views/Home/components/FarmStakingCard'
@@ -23,25 +23,21 @@ const Hero = styled.div`
   margin: auto auto 25px;
   padding: 32px 16px;
   text-align: center;
-
 `
 
 const Cards = styled(BaseLayout)`
   align-items: stretch;
   justify-content: stretch;
   margin-bottom: 32px;
-
   & > div {
     grid-column: span 6;
     width: 100%;
   }
-
   ${({ theme }) => theme.mediaQueries.sm} {
     & > div {
       grid-column: span 8;
     }
   }
-
   ${({ theme }) => theme.mediaQueries.lg} {
     & > div {
       grid-column: span 6;
@@ -56,9 +52,9 @@ const Home: React.FC = () => {
     <div>
       <Hero>
         <Heading as="h1" size="xl" mb="24px" color="secondary">
-          {t('PolexSwap')}
+          {t('PoliexSwap')}
         </Heading>
-        <Text>{t('Trade, Yield Farm & AMM on Binance Smart Chain.')}</Text>
+        <Text>{t('First Hight Yield Farm & AMM on Binance Smart Chain.')}</Text>
       </Hero>
       <Page>
         <div>
