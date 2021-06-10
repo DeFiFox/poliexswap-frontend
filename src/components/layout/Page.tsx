@@ -5,6 +5,8 @@ import { useLocation } from 'react-router'
 import { customMeta, DEFAULT_META } from 'config/constants/meta'
 import { usePriceCakeBusd } from 'state/hooks'
 import Container from './Container'
+import { Text } from '@becoswap-libs/uikit'
+
 
 const StyledPage = styled(Container)`
   min-height: calc(100vh - 64px);
