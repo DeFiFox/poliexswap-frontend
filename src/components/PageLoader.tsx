@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Text } from '@becoswap-libs/uikit'
+import { useTranslation } from 'contexts/Localization'
 import Page from './layout/Page'
 
 const Wrapper = styled(Page)`
