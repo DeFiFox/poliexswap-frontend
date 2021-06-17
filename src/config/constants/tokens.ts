@@ -6,11 +6,11 @@ const tokens = {
   polex: {
     symbol: 'POLEX',
     address: {
-      56: '0x5550a00d2B9841d7659563B861E7d765200b9682',
+      56: '0x053475f7d860635081a0691CcB80A11AB4EE2Dc0',
       97: '',
     },
     decimals: 18,
-    projectLink: 'https://polexx.netlify.app/',
+    projectLink: 'https://polexbsc.netlify.app/pools',
   },
   btcb: {
     symbol: 'BTCB',
