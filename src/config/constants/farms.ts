@@ -7,7 +7,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'POLEX-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0x73c5114b19ab840f16cdffa40711ef777353d4aa',
+      56: '0x59003e72775a3ca90e01bed3e0e3602a58167298',
     },
     token: tokens.polex,
     quoteToken: tokens.wbnb,
