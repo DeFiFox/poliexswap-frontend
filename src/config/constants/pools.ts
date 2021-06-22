@@ -15,7 +15,21 @@ const pools: PoolConfig[] = [
     tokenPerBlock: '10',
     sortOrder: 1,
     isFinished: false,
-  }
+  },
+   {
+    sousId: 5,
+    stakingToken: tokens.wbnb,
+    earningToken: tokens.polex,
+    contractAddress: {
+       97: '',
+       56: '0xC6Cc722b0fCF11fF55B4C329B76D5124B24E18Fb',
+    },
+    poolCategory: PoolCategory.CORE,
+    harvest: true,
+    tokenPerBlock: '1',
+    sortOrder: 2,
+    isFinished: false,
+  },
 ]
 
 export default pools
