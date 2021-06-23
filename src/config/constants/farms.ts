@@ -42,16 +42,7 @@ const farms: FarmConfig[] = [
     token: tokens.cake,
     quoteToken: tokens.wbnb,
   },
-   {
-    pid: 5,
-    lpSymbol: 'BNB',
-    lpAddresses: {
-      97: '',
-      56: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
-    },
-    token: tokens.wbnb,
-    quoteToken: tokens.wbnb,
-  },
+
   
 //   {
 //     pid: 6,
